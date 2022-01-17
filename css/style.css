@@ -1,0 +1,154 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 10px;
+    line-height: 1.1;
+    background-color: #000000;
+
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    width: 200px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.second-container {
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+
+.picture__item {
+    width: 146px;
+    height: 204px;
+}
+
+.picture__item--blue {
+    background-color: #5fa2a2;
+}
+
+.picture__item--red {
+    background-color: #e43e49;
+}
+
+.picture__item--yellow {
+    background-color: #dcc637;
+}
+
+.picture__item--flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 1.17;
+    /* identical to box height */
+    margin: 0;
+    padding-bottom: 20px;
+
+    animation-name: title;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    color: #e43e49;
+}
+
+@keyframes title {
+    0% {
+        color: #fff;
+        text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2,
+            0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2,
+            0 0 70px #00fff2, 0 0 90px #00fff2;
+    }
+
+    100% {
+        color: #5fa2a2;
+        text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2,
+            0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2,
+            0 0 80px #00fff2, 0 1 90px #00fff2;
+    }
+}
+
+.second-title {
+    font-size: 15px;
+    line-height: 1.13;
+    width: 100%;
+    margin: 0;
+    text-transform: uppercase;
+
+    color: #c1c1c1;
+}
+
+.yellow-line {
+    width: 100%;
+    height: 3px;
+    display: inline-block;
+    background-color: #dcc637;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.menu-title {
+    font-size: 21px;
+    line-height: 1.09;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+
+    color: #5fa2a2;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.other {
+    margin-bottom: 20px;
+}
+
+.alco-name {
+    font-size: 10px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 3px;
+
+    color: #de3c46;
+}
+
+.second-info-item {
+    margin-bottom: 4px;
+}
+
+.blue-line {
+    color: #5fa2a2;
+    margin: 0;
+}
