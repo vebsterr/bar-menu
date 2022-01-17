@@ -73,14 +73,14 @@ p {
     animation-name: title;
     animation-duration: 1000ms;
     animation-timing-function: linear;
-    /* animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-fill-mode: backwards; */
+    animation-fill-mode: backwards;
     color: #e43e49;
 }
 
 @keyframes title {
-    /* 0% {
+    0% {
         color: #fff;
         text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2,
             0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2,
@@ -92,8 +92,8 @@ p {
         text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2,
             0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2,
             0 0 80px #00fff2, 0 1 90px #00fff2;
-    } */
-    0% {
+    }
+    /* 0% {
         opacity: 0;
     }
     50% {
@@ -101,7 +101,7 @@ p {
     }
     100% {
         opacity: 1;
-    }
+    } */
 }
 
 .second-title {
